@@ -11,13 +11,7 @@ header .dropdown{
   }
 }
 
-:root{
---cor-primaria: #588157;
---cor-secundaria: #344E41;
---cor-fundo: #DAD7CD;
---cor-texto: #F7FFF7;
---cor-terciaria: #A3B18A;
-}
+
 body{
   margin: 0px;
 }
@@ -35,6 +29,7 @@ header{
   padding: 0;
   align-items: center;
   height: 84px;
+  box-shadow: 0px 4px 24px rgba(63, 62, 62, 0.58);
 }
 
 header .esquerda{
