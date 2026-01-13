@@ -1,56 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>João Pedro | Portifólio</title>
-  
-  <!-- HTML -->
-  
+    <title>João Pedro | Portifólio</title>
 
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="styles/header.css">
-  <link rel="stylesheet" href="styles/background.css">
-  <link rel="stylesheet" href="styles/main.css">
-  <link href="https://fonts.googleapis.com/css2?
+    <!-- HTML -->
+
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?
 family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <div class="esquerda">
-      <h2><span class="joao">João</span> <span class="pedro">Pedro</span></h2>
-    </div>
-    <div class="direita">
-      <ul class="links">
-                  <li><a href="#">Contato <span></span></a></li>
-          <li><a href="#">Projetos <span></span></a></li>
-          <li><a href="#">Habilidades <span></span></a></li>
-          <li><a href="#">Certificados <span></span></a></li>
-      </ul>
-      <div class="dropdown">
-          <button class="button">
+    <header>
+        <div class="esquerda">
+            <h2><span class="joao">João</span> <span class="pedro">Pedro</span></h2>
+        </div>
+        <div class="direita">
+            <ul class="links">
+                <li><a href="#inicio">Início <span></span></a></li>
+                <li><a href="#sobre">Sobre <span></span></a></li>
+                <li><a href="#projetos">Projetos <span></span></a></li>
+                <li><a href="#contato">Contato <span></span></a></li>
+            </ul>
+            <div class="dropdown">
+                <button class="button">
             <span></span>
             <span></span>
             <span></span>
           </button>
-        <ul class="dropdown-list">
-          <li><a href="#">Contato <span></span></a></li>
-          <li><a href="#">Projetos <span></span></a></li>
-          <li><a href="#">Habilidades <span></span></a></li>
-          <li><a href="#">Certificados <span></span></a></li>
-        </ul>
-      </div>
+                <ul class="dropdown-list">
+                    <li><a href="#inicio">Início <span></span></a></li>
+                    <li><a href="#sobre">Sobre <span></span></a></li>
+                    <li><a href="#projetos">Projetos <span></span></a></li>
+                    <li><a href="#contato">Contato <span></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="inicio">
+        <section>
+            <h2>Olá, eu sou um desenvolvedor <span>Front-End</span>👋</h2>
+            <article>
+                Crio interfaces web responsivas, estilizadas e mordernas utilizando HTML, CSS e Javascript.
+            </article>
+            <button>Conheça meus Projetos!</button>
+        </section>
+    </section>
+    <span class="division-container">
+        <div class="division"></div>
+    </span>
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-img">
+                <img src="static/minha-foto.jpg" alt="Foto do Desenvolvedor">
+                <h2>Sobre Mim</h2>
+            </div>
+            <div class="sobre-texto">
+                <h2>Sobre Mim</h2>
+                <p>Sou um desenvolvedor front-end apaixonado por tecnologia, design e criação de interfaces funcionais.</p>
+                <p>Trabalho com <strong>HTML</strong>,
+                    <strong>CSS</strong> e <strong>JavaScript</strong>, sempre buscando aprender mais sobre acessibilidade, usabilidade e boas práticas.</p>
+                <p>Meu foco é transformar ideias em experiências digitais modernas e intuitivas.</p>
+                <p>Além de trabalhar com <strong>Python</strong>, <strong>Flask</strong> e <strong>MySQL</strong> para Back-end, para aprimorar minhas aplicações com sistema de login e persistência de dados entre sessões.</p>
+            </div>
+        </div>
+    </section>
+    <span class="division-container">
+        <div class="division"></div>
+    </span>
+    <span class="projetors-wrapper">
+    <section class="projetos" id="projetos">
+        <h2>Projetos</h2>
+        <p class="subtitulo">Alguns dos trabalhos que já desenvolvi, utilizando tecnologias de <strong>Front-End</strong> e <strong>Back-End!</strong>👨‍💻
+        </p>
+        <div id="cards" class="cards-projetos">
+            <div id="template" class="card no-anim">
+
+                <img class="template-img" src="https://avatars.githubusercontent.com/u/136633743?s=280&v=4" alt="">
+
+                <span class="projeto-descricao">
+                    <h3>Projeto 1</h3>
+                    <p>Landing Page moderna feita com HTML e CSS.</p>
+                    <span class="btn-container">
+                    <a href="#" target="_blank" class="btn-projeto">Ver Projeto</a>
+                    </span>
+    <span class="division-container">
+                        <div class="division"></div>
+                    </span>
+    <section class="techs">
+        <img class="code-ling html" src="static/linguagens/html.png" alt="">
+        <img class="code-ling css" src="static/linguagens/css.png" alt="">
+        <img class="code-ling js" src="static/linguagens/javascript.png" alt="">
+        <img class="code-ling py" src="static/linguagens/python.png" alt="">
+        <img class="code-ling mysql" src="static/linguagens/mysql.png" alt="">
+    </section>
+    </span>
     </div>
-  </header>
-  
-  <section class="hero">
-    <h2>Olá, eu sou um desenvolvedor <span>Front-End</span>👋</h2>
-    <article>
-      Crio interfaces web responsivas, estilizadas e mordernas utilizando HTML, CSS e Javascript.
-    </article>
-  </section>
-  <script src="main.js"></script>
+
+
+    </div>
+    </section>
+    </span>
+    <span class="division-container">
+        <div class="division"></div>
+    </span>
+    <div class="contato-wrapper">
+        <section id="contato" class="contato ">
+            <div class="left">
+                <h2>Entre em Contato</h2>
+
+                <p>Quer falar comigo? Envie uma mensagem!</p>
+                <form>
+                    <span>
+                    <p>Nome</p>
+                    <input type="text" placeholder="Seu nome " required>
+                </span>
+                    <span>
+                    <p>E-mail</p>
+                    <input type="email" placeholder="Seu e-mail " required>
+                </span>
+                    <span>
+                    <p>Mensagem</p>
+                    <textarea placeholder="Sua mensagem" required></textarea>
+                </span>
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+            </div>
+            <span class="and-wrapper">
+                <h2>Ou</h2>
+            </span>
+            <div class="right">
+                <h2 style="width: 100%;">Links</h2>
+
+
+                <p>Entre em contato por meio de minhas outras plataformas:</p>
+                <ul class="links ">
+                    <li>
+                        <a href="https://github.com/Zumbisinho" class="link "></a>
+                        <a href="mailto:joaopedropostingherfachinelli@gmail.com" class="link "></a>
+                        <a href="https://wa.me/5554999955504" class="link "></a>
+                        <a href="https://discordapp.com/users/946127478940921968" class="link "></a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+    </div>
+    <footer>
+        <p>© 2025 - Desenvolvido por João Pedro</p>
+    </footer>
+    <script src="main.js "></script>
 </body>
+
 </html>

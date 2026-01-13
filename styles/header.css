@@ -1,154 +1,148 @@
-header .dropdown{
-  position: relative;
-  display: none;
-}
-@media (max-width:900px) {
-  header .links{
+header .dropdown {
+    position: relative;
     display: none;
-  }
-  header .dropdown{
-    display: inline-block;
-  }
 }
 
-
-body{
-  margin: 0px;
-}
-header .button span{
-  width: 80%;
-  background-color: var(--cor-terciaria);
-  height: 15%;
-  border-radius: 60px;
-  display: block;
-}
-header{
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--cor-secundaria);
-  padding: 0;
-  align-items: center;
-  height: 84px;
-  box-shadow: 0px 4px 24px rgba(63, 62, 62, 0.58);
+@media (max-width:900px) {
+    header .links {
+        display: none;
+    }
+    header .dropdown {
+        display: inline-block;
+    }
 }
 
-header .esquerda{
-  margin: 0px 20px;
-  font-family: "Poppins";
-}
-header .esquerda .joao{
-background-image: linear-gradient(45deg, #F0FF00,#FFD000);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-weight: bold;
-}
-header .esquerda .pedro{
-  background-image: linear-gradient(45deg, #4A94FF,#4B69FF);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-weight: bold;
-  font-size: 1.65rem;
-}
-header ul{
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  list-style: none;
-  
-}
-header .direita{
-  margin: 0 20px;
-}
-header li{
-  margin: 0;
-  
-}
-header .dropdown-list li:first-child{
-  margin-top: 10px;
+body {
+    margin: 0px;
 }
 
-header .links{
-  align-items: center;
-  
+header .button span {
+    width: 80%;
+    background-color: var(--cor-terciaria);
+    height: 15%;
+    border-radius: 60px;
+    display: block;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-secundaria);
+    padding: 0;
+    align-items: center;
+    height: 74px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+}
+
+header .esquerda {
+    margin: 0px 20px;
+    font-family: "Poppins";
+}
+
+header .esquerda h2 span {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+header .direita {
+    margin: 0 20px;
+}
+
+header li {
+    margin: 0;
+}
+
+header .dropdown-list li:first-child {
+    margin-top: 10px;
+}
+
+header .links {
+    align-items: center;
+}
+
 header .links li {
-  margin: 0px 10px;
+    margin: 0px 10px;
 }
 
 header .links li a {
-  color: var(--cor-texto);
-  font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
 }
 
-header .dropdown-list li a, header .links li a{
-  text-decoration: none;
-  margin: 0;
-  font-family: "Poppins";
-  transition: all 1s linear;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  -webkit-tap-highlight-color: transparent;
+header .dropdown-list li a,
+header .links li a {
+    text-decoration: none;
+    margin: 0;
+    font-family: "Poppins";
+    transition: all 0.2s linear;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
 }
+
 header .dropdown-list li a {
-  color: #000;
-}
-header .dropdown-list li a span{
-  background-color: #eee;
-}
-header ul a span{
-  background-color: var(--cor-texto);
-  width: 0;
-  height: 4px;
-  display: inline-block;
-  margin: 0;
-  margin-bottom: 10px;
-  border-radius: 100px;
-  transition: all 0.5s ease-in ;
-
-
-}
-header ul a:hover span{
-  width: 100%;
+    color: #000;
 }
 
-
-header .dropdown-list{
-  display: none;
-  position: absolute;
-  z-index: 1;
-  right: 0px;
-  background-color: white;
-  top: 45px;
-  margin: 0px 0px;
-  padding: 0px 10px;
-  border-radius: 10px;
-  border-color: #000;
-  border-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(102, 102, 102, 0.38);
-  
+header .dropdown-list li a span {
+    background-color: #eee;
 }
 
-header .button{
-  all: unset;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  width: 40px;
-  height: 40px;
-  align-items: center;
-  background: var(--cor-primaria);
-  border-radius: 20%;
-  padding: 2px;
-  
-  
+header ul a span {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 0;
+    height: 4px;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease;
 }
 
-header .esquerda h2{
-  color: var(--cor-texto);
+header ul a:hover span {
+    width: 100%;
 }
-header .dropdown:hover .dropdown-list{
-  display: block;
+
+header .dropdown-list {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    background-color: white;
+    top: 45px;
+    margin: 0px 0px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border-color: #000;
+    border-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(102, 102, 102, 0.38);
+}
+
+header .button {
+    all: unset;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    background: var(--cor-primaria);
+    border-radius: 20%;
+    padding: 2px;
+}
+
+header .esquerda h2 {
+    font-size: 32px;
+}
+
+header .dropdown:hover .dropdown-list {
+    display: block;
 }

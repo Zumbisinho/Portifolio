@@ -1,0 +1,16 @@
+[{
+        "name": "Notícia",
+        "desc": "Notícia sobre um futuro fictício onde eu mudei o cenário da tecnologia brasileira.",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2HoSp6zljAZpsFXvwyNx5vQQLR6lxb3gG3w&s",
+        "link": "https://zumbisinho.github.io/instituto-evoluir-manchete/not%C3%ADcias/",
+        "techs": ["html", "css"]
+    },
+    {
+        "name": "Academia Força Total",
+        "desc": "Um site completo com Front-End e Back-end sobre uma academia fictícia, com sistema de login e compra de planos",
+        "imgUrl": "https://academiacorpoealma.com/wp-content/uploads/2023/06/IMG_4192-e1728511709981-1440x1920.jpeg",
+        "link": "https://google.com",
+        "techs": ["html", "css", "js", "py", "mysql"]
+    }
+
+]
