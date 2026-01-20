@@ -1,16 +1,36 @@
 [{
         "name": "Notícia",
-        "desc": "Notícia sobre um futuro fictício onde eu mudei o cenário da tecnologia brasileira.",
+        "desc": "Notícia sobre um futuro fictício em que eu mudei o cenário da tecnologia brasileira.",
         "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2HoSp6zljAZpsFXvwyNx5vQQLR6lxb3gG3w&s",
         "link": "https://zumbisinho.github.io/instituto-evoluir-manchete/not%C3%ADcias/",
         "techs": ["html", "css"]
     },
     {
         "name": "Academia Força Total",
-        "desc": "Um site completo com Front-End e Back-end sobre uma academia fictícia, com sistema de login e compra de planos",
+        "desc": "Um site completo com front-end e back-end sobre uma academia fictícia, com sistema de login e compra de planos.",
         "imgUrl": "https://academiacorpoealma.com/wp-content/uploads/2023/06/IMG_4192-e1728511709981-1440x1920.jpeg",
-        "link": "https://google.com",
+        "link": "https://github.com/Zumbisinho/Academia-For-a-Total",
         "techs": ["html", "css", "js", "py", "mysql"]
+    },
+    {
+        "name": "TikTok TTS",
+        "desc": "Um software para ler comentários de uma live do TikTok, com implementações úteis.",
+        "imgUrl": "https://raw.githubusercontent.com/Zumbisinho/TikTok-Local-TTS/refs/heads/main/static/tiktok.png",
+        "link": "https://github.com/Zumbisinho/TikTok-Local-TTS",
+        "techs": ["py"]
+    },
+    {
+        "name": "Geometry TikTok Live",
+        "desc": "Uma ferramenta para realizar lives integrando o chat com o streamer por meio de requisições de níveis do jogo Geometry Dash.",
+        "imgUrl": "https://raw.githubusercontent.com/Zumbisinho/GD-TiktokLive/refs/heads/main/static/GDLR.ico",
+        "link": "https://github.com/Zumbisinho/GD-TiktokLive/",
+        "techs": ["py", "html", "css", "js"]
+    },
+    {
+        "name": "GDG Events Website",
+        "desc": "Uma página criada com o intuito de mostrar os resultados de eventos de uma comunidade de Geometry Dash (descontinuado/abandonado).",
+        "imgUrl": "https://github.com/Zumbisinho/Grupo_Dashsgracado_Do_Geometry/blob/main/src/favicon.png?raw=true",
+        "link": "https://zumbisinho.github.io/Grupo_Dashsgracado_Do_Geometry/home/",
+        "techs": ["html", "css", "js"]
     }
-
 ]
